@@ -22,8 +22,8 @@ public class GenerateBuilderTest {
 	// domain, it will be replace by builder ie:
 	// pakage name: eu.iri.lmx.core.model.domain.configuration.descriptives
 	// location to save:
-	// D:\source\LMx\lmx-generation-3\core\lmx-model\src\main\java\eu\iri\lmx\core\model\builder\configuration\descriptives\DescriptivesBuilder.java
-	final String projectJavaCode = System.getProperty("user.dir").concat("\\");// "D:\\source\\LMx\\lmx-generation-3\\core\\lmx-model\\";
+	// D:\source\project\src\main\java\model\builder\configuration\descriptives\DescriptivesBuilder.java
+	final String projectJavaCode = System.getProperty("user.dir").concat("\\");// "D:\\source\\project\\src\\main\\java\\model\\";
 	final String methodPrefix = "with";
 	final String builderMethodName = "build";
 
